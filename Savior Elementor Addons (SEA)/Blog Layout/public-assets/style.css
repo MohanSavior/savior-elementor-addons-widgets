@@ -1,0 +1,35 @@
+body {background-color: #ef4823; font-family: 'Roboto';}
+.savior-welcome {
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 50px 20px;
+    text-transform: uppercase;
+}
+.welcome-text {
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+}
+.welcome-desc {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+.welcome-click-button {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 25px 0px 0px 0px;
+}
+.welcome-click-button a {
+    color: #FFFFFF;
+}
+.skin-list-item a {
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

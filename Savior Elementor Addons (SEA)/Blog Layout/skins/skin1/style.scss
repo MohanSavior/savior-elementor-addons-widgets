@@ -1,0 +1,98 @@
+// Common CSS
+$fonts : "Roboto";
+body {
+    font-family: $fonts;
+}
+h1, h2 {
+    margin: 0;
+}
+
+.sea-blog-layout {
+    margin: auto;
+    max-width: 668px;
+    width: 100%;
+}
+.sea-post-meta {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 30px 0px;
+}
+.sea-post-meta-list {
+    width: 90%;
+}
+.sea-social-share {
+    width: 10%;
+    text-align: right;
+}
+.sea-icon-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+.sea-meta-inline-list.sea-icon-list {
+    column-gap: 20px;
+}
+.sea-blog-layout-img img {
+    width: 100%;
+    object-fit: fill;
+}
+.sea-share-button {
+    border: 1px solid #1B75BB;
+    fill: #1B75BB;
+    background-color: #FFFFFF;
+    color: #1B75BB;
+    padding: 13.5px 14px;
+    border-radius: 100%;
+
+    :hover {
+        background-color: #1B75BB;
+        color: #FFFFFF;
+    }
+
+    i {
+        font-size: 16px;
+    }
+}
+.sea-post-title a {
+    color: #1B75BB;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 54px;
+    letter-spacing: 0.84px;
+}
+.sea-post-short-desc {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.sea-post-short-desc {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 13px 0px 60px 0px;
+}
+.sea-read-more-button a  {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: unset;
+    letter-spacing: 0.72px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #1B75BB;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #1B75BB;
+    border-radius: 100px 100px 100px 100px;
+    padding: 26px 96px 26px 96px;
+    transition: all .3s;
+}
+.sea-read-more-button a:hover {
+    color: #1B75BB;
+    background-color: #F4590500;
+    border-color: #1B75BB;
+}
